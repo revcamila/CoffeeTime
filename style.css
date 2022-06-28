@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@100&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins';
+   color: white;
+}
+
+html {
+   scroll-behavior: smooth;
+   scroll-padding-top: 100px;
+}
+
+
+body {
+   width: 100%;
+   color: var(--black);
+}
+
+:root {
+   --black: #000000;
+   --white: #FFFFFF;
+   --coffee: #715035;
+}
+
+.section-title {
+   font-weight: bold;
+   font-size: 32px;
+
+}
+
+.content {
+   position: relative;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+}
+
+/* Header */
+
+
+header {
+   background-color: var(--black);
+   margin: 0 auto;
+   max-width: 1300px;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 80px 0px 50px;
+   position: sticky;
+
+}
+
+.navbar,
+.navbar-list {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.navbar-list {
+   gap: 50px;
+}
+
+.navbar i {
+   font-size: 40px;
+   color: white;
+   cursor: pointer;
+   display: none;
+}
+
+.navbar-list li:last-child>a {
+   border: 1px solid white;
+   font-size: 14px;
+   padding: 8px 40px;
+   border-radius: 3px;
+   transition: all 0.3s linear;
+}
+
+.navbar-list li:last-child>a:hover {
+   background-color: var(--coffee);
+   color: var(--black);
+   transition: all 0.3s linear;
+   font-weight: 700;
+}
+
+#toggle-menu {
+   display: none;
+}
+
+
+.menu {
+   flex-wrap: nowrap;
+   justify-content: space-around;
+
+}
+
+.container-items {
+   display: flex;
+   justify-content: flex-end;
+   gap: 50px;
+
+}
+
+.item {
+   display: flex;
+   padding: 20px;
+   color: white;
+}
+
+
+
+.logo-container {
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+.logo {
+   width: 150px;
+   vertical-align: middle;
+   float: left;
+   padding-top: 1rem;
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   color: var(--coffee);
+   transition: all 0.4s linear;
+   cursor: pointer;
+
+}
+
+
+main {
+   background-color: #000000;
+}
+
+.content {
+   display: flex;
+   flex-direction: row;
+}
+
+.section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   padding: 70px 0px;
+   width: 95%;
+   max-width: 1300px;
+}
+
+.description-container {
+   background-image: url(./img/goodtothe.jpg);
+   background-size: 1300px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   padding: 70px 0px;
+
+}
+
+.section h1 {
+   padding-bottom: 2rem;
+   font-size: 80px;
+}
+
+.section p {
+   text-align: center;
+   max-width: 700px;
+   padding-bottom: 1rem;
+}
+
+button {
+   background-color: var(--coffee);
+   border: 0px solid black;
+   outline: none;
+   width: 180px;
+   height: 40px;
+   color: white;
+   font-weight: 700;
+   font-size: 14px;
+   cursor: pointer;
+   transition: all 0.4s linear;
+   border-radius: 50px;
+}
+
+button:hover {
+   background-color: brown;
+   transition: all 0.4s linear;
+}
+
+.section-container {
+   flex-wrap: wrap;
+   gap: 20px;
+   padding-top: 3rem;
+   background-color: var(--black);
+   margin: 0 auto;
+}
+
+.about-content {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+   gap: 40px;
+  
+}
+
+
+.about-text {
+   text-align: left;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   background-color: red;
+}
+
+.about-img {
+   width: 300px;
+   height: auto;
+   margin: 5rem auto;
+   display: flex;
+}
+
+.about-content h2 {
+   background-color: green;
+   font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
+  align-content: center;
+}

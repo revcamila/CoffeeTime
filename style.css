@@ -203,41 +203,40 @@ button:hover {
 }
 
 .section-container {
-   flex-wrap: wrap;
+   /*flex-wrap: wrap;*/
    gap: 20px;
    padding-top: 3rem;
    background-color: var(--black);
    margin: 0 auto;
 }
 
-.about-content {
+
+/* About US */
+
+ 
+ .about-container {
    display: flex;
-  justify-content: center;
-  align-items: center;
-   gap: 40px;
-  
-}
+   flex-direction: row;
+ }
 
-
-.about-text {
-   text-align: left;
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   background-color: red;
-}
-
-.about-img {
-   width: 300px;
-   height: auto;
-   margin: 5rem auto;
-   display: flex;
-}
-
-.about-content h2 {
-   background-color: green;
-   font-weight: 700;
-  font-size: 45px;
-  line-height: 45px;
-  align-content: center;
-}
+ .about-title {
+   text-align: center;
+   align-items: flex-start;
+   padding: auto;
+   margin: auto;
+   font-size: 50px;
+   font-weight:900;
+ }
+ 
+ .about-img {
+   width: 30%;
+   height: 30%;
+ }
+ 
+ .about-text {
+   width: 70%;
+   text-align: center;
+   padding: auto;
+   margin: auto;
+ }
+ 

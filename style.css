@@ -146,8 +146,7 @@ main {
 }
 
 .content {
-   display: flex;
-   flex-direction: row;
+   
 }
 
 .section {
@@ -203,7 +202,6 @@ button:hover {
 }
 
 .section-container {
-   /*flex-wrap: wrap;*/
    gap: 20px;
    padding-top: 3rem;
    background-color: var(--black);
@@ -213,7 +211,6 @@ button:hover {
 
 /* About US */
 
- 
  .about-container {
    display: flex;
    flex-direction: row;
@@ -238,5 +235,34 @@ button:hover {
    text-align: center;
    padding: auto;
    margin: auto;
+ }
+
+ /* Locales */
+ 
+ .store-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 50px;
+ }
+
+.store-card {
+   text-align: center;
+   margin: 0 auto;
+   padding: 0 auto;
+  
+}
+
+ .store-img {
+   width: 300px;
+   height: 400px;
+   margin: 0 auto;
+   border-radius: 5px;
+ }
+
+ .store-location {
+   text-align: center;
+   margin: 0 auto;
+   padding: 0 auto;
  }
  

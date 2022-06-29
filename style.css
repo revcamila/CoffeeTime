@@ -144,13 +144,10 @@ main {
 
 
 .section {
-   display: flex;
-   justify-content: center;
-   align-items: center;
    margin: 0 auto;
    padding: 70px 0px;
    width: 95%;
-   /*max-width: 1300px;*/
+   max-width: 1300px;
 }
 
 .description-container {
@@ -212,24 +209,23 @@ button:hover {
 
 .about-container {
    display: flex;
+   flex-direction: row;
 }
 
-.about-title {
+h2 .about-title {
    text-align: center;
-   padding: auto;
-   margin: auto;
+   padding: 0 auto;
+   margin: 0 auto;
    font-size: 50px;
    font-weight: 900;
    align-items: center;
-   display: flex;
    height: 100px;
-   justify-content: center;
    width: 200px;
 }
 
 .about-img {
    width: 30%;
-   height: 30%;
+   height: 90%;
 }
 
 .about-text {
@@ -246,6 +242,7 @@ button:hover {
    flex-direction: row;
    flex-wrap: wrap;
    gap: 50px;
+   padding-top: 5rem;
 }
 
 .store-card {
@@ -275,7 +272,6 @@ button:hover {
 }
 
 .store-title {
-
    font-size: 50px;
 }
 
@@ -284,7 +280,6 @@ button:hover {
 
 .contact-title {
    font-size: 40px;
-
 }
 
 .contact {
@@ -299,7 +294,6 @@ button:hover {
 
 
 footer {
- 
   background-color: var(--black);
   border-top: 10px var(--coffee);
   text-align: center;
@@ -309,5 +303,11 @@ footer {
 
 .social {
    gap: 3rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 576px) {
+
 }
 

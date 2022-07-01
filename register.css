@@ -21,7 +21,7 @@ body {
 .container {
     max-width: 700px;
     width: 100%;
-    background-color: #ccc;
+    background-color: #fff;
     padding: 25px 30px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
@@ -123,13 +123,13 @@ form input[type="radio"] {
 form .button {
     height: 45px;
     margin: 35px 0;
-    border-radius: 50px;
+    cursor: pointer;
 }
 
 form .button input {
     height: 100%;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 40px;
     border: none;
     color: #fff;
     font-size: 18px;
@@ -138,14 +138,17 @@ form .button input {
     cursor: pointer;
     transition: all 0.3s ease;
     background-color: brown;
-    background-image: linear-gradient(90deg, rgba(180, 58, 71, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(112, 60, 60, 1) 50%, rgba(252, 96, 69, 1) 100%);
-
+    background: -webkit-linear-gradient(to right, #e74c3c, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+   
+    
 }
 
 form .button input:hover {
     /* transform: scale(0.99); */
     background-color: brown;
-    background-image: linear-gradient(90deg, rgba(180, 58, 71, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(112, 60, 60, 1) 50%, rgba(252, 96, 69, 1) 100%);
+    background: -webkit-linear-gradient(to right, #e74c3c, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+   
+    
 
 }
 

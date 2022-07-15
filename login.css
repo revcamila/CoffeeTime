@@ -80,7 +80,7 @@ section .content-box .form-box .input-box input {
 }
 
 section .content-box .form-box .input-box input[type="submit"] {
-    background: brown;
+    background-color:brown;
     color: #fff;
     outline: none;
     border: none;

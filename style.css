@@ -56,11 +56,9 @@ body {
    height: 100vh;
    margin: 0;
    font-size: 100px;
-   font-weight: 600;
+   font-weight: 800;
+   max-width: 100vw;
 }
-
-
-/* Header */
 
 header {
    margin: 0 auto;
@@ -179,17 +177,6 @@ main {
    max-width: 1300px;
    color: white;
 }
-
-/*.description-container {
-  /* background-image: url(./img/goodtothe.jpg);
-   background-size: 1300px;
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: 0 auto;
-   padding: 70px 0px;
-}*/
 
 .section-title {
    font-size: 100px;
@@ -355,24 +342,12 @@ main {
    width: 25%;
    height: 100%;
    margin-top: 15px;
-   position: relative;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
 }
 
-.content .left-side::before {
-   content: '';
-   position: absolute;
-   height: 70%;
-   width: 2px;
-   background: var(--coffee);
-   right: -15px;
-   top: 50%;
-   transform: translateY(-50%);
-
-}
 
 .contact-container .content .left-side .details {
    margin: 14px;

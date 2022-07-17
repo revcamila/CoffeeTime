@@ -429,9 +429,6 @@ main {
 
 }
 
-.right-side .button input[type="button"]:hover {
-
-}
 
 
 /* Footer */
@@ -549,11 +546,30 @@ footer {
     }
 
     .clients-container {
-      width: 40vw;
+      width: 100vw;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
     }
+
     .client-title {
       width: 60vw;
       height: auto;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .store-title {
+      width: 60vw;
+      height: auto;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
     }
     
 }
@@ -567,6 +583,13 @@ footer {
       right: 0;
    }
 
+   .coffee-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+
    .clients-container {
      margin: 40px;
      height: 100%;
@@ -578,12 +601,11 @@ footer {
 
    .clients-container.content {
       display: flex;
-      flex-direction: column-reverse;
+      flex-wrap: wrap;
    }
 
    .clients-container.content.left-side {
       width: 100%;
-      flex-direction: row;
       margin-top: 40px;
    }
 

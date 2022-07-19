@@ -550,21 +550,25 @@ main {
     }
     .navbar i {
       display: block;
+      cursor: pointer;
     }
-    .navbar-list {
+    .navbar-list .container-items {
       position: fixed;
-      background-color: var(--black);
-      flex-direction: column;
-      top: 100px;
-      right: 0;
+      top: 80px;
+      bottom: 0;
       width: 100%;
-      height: calc(100vh - 100px);
-      display: none;
-      z-index: 9999;
+      left: 0;
+      background-color: var(--black);
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      clip-path: circle(0 at center);
+      transition: 1s ease-in-out;
+
     }
   
-    #toggle-menu:checked + .navbar-list {
-      display: flex;
+    #toggle-menu:checked + .navbar-list .container-items{
+      clip-path: circle(100% at center);
 
     }
 

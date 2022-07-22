@@ -19,7 +19,7 @@ html {
 body {
    width: 100vw;
    color: var(--black);
-   overflow-x: hidden
+   overflow-x: hidden;
 }
 
 :root {

@@ -19,6 +19,7 @@ html {
 body {
    width: 100vw;
    color: var(--black);
+   overflow-x: hidden
 }
 
 :root {
@@ -293,10 +294,11 @@ main {
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 98vw;
+   width: 95vw;
    margin: 0;
    padding-top: 5rem;
    padding-bottom: 5rem;
+   padding-left: 3rem;
 
 }
 
@@ -532,10 +534,12 @@ main {
 
 @media screen and (max-width:800px){
    .pie-pagina .grupo-1{
-       width: 90%;
+       width: 30%;
        grid-template-columns: repeat(1, 1fr);
        grid-gap:30px;
        padding: 35px 0px;
+      
+      
    }
 }
 
